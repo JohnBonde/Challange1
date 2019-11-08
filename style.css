@@ -65,5 +65,12 @@
   height: 10vh;
 }
 #icns {
-  
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+#address {
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
