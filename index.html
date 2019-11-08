@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Challange 1</title>
 </head>
 
 <body>
-  <header class="container-fluid">
-    <div class="row jumbotron p-0 mb-0">
+  <header class="container-fluid p-0">
+    <div class="row jumbotron">
       <div class="col">
         <div class="row" id="navbar">
           <div class="col">
@@ -44,7 +45,7 @@
           </div>
         </div>
         <div class="row" id="media-content">
-          <div class="col-12 col-md-5 pt-5 mt-5 d-flex flex-column justify-content-center">
+          <div class="col-12 col-md-5 pt-5 mt-5 d-flex flex-column justify-content-end">
             <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nam architecto labore,
               voluptates
               quidem ab laboriosam odio autem. Vero distinctio atque ad enim eius nobis fugiat earum vitae, alias porro!
@@ -52,7 +53,7 @@
             <button type="button mb-1" class="btn btn-success btn-block">Success</button>
           </div>
           <div class="col-12 col-md-7 embed-responsive embed-responsive-16by9">
-            <iframe width="25%" height="25%" src="https://www.youtube.com/embed/og-cW8zMGBc" frameborder="0"
+            <iframe width="727" height="409" src="https://www.youtube.com/embed/ngLQfhJZ7Rs" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -121,23 +122,44 @@
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col" id="break-line"></div>
+      </div>
     </div>
     <div class="container">
-      <div class="row" id="bio-content">
-        <div class="col"></div>
-        <div class="col"></div>
+      <div class="row pb-5" id="bio-content">
+        <div class="col-12 col-md-6" id="bio-image">
+          <img src="http://www.campingduvillard.com/images/2016/04/20/chalet-500x300.jpg" alt="" style="width: 100%">
+        </div>
+        <div class="col-12 col-md-6 text2">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore vitae necessitatibus veritatis soluta?
+            Fuga eveniet accusantium, soluta beatae quae, maiores fugiat nesciunt error laboriosam voluptas rerum
+            deleniti aut, sapiente dicta.Doloribus qui expedita repellendus minus ducimus porro, voluptatem culpa
+            fugiat! Dolore consequuntur explicabo, animi eveniet sequi tempora vitae sapiente! Hic fugit repudiandae
+            modi asperiores vel quod provident vero dicta adipisci!</p>
+        </div>
       </div>
     </div>
     <div class="container-fluid">
-      <div class="row" id="logo">
-        <div class="col"></div>
+      <div class="row pt-1" id="logo">
+        <div class="col hellboy">
+          <img src="https://icon-library.net/images/50x50-icon/50x50-icon-4.jpg" alt="" style="max-width: 10%;">
+        </div>
       </div>
     </div>
   </main>
 
-  <footer class="container">
-    <div class="row">
-      <div class="col"></div>
+  <footer class="container-fluid">
+    <div class="row" id="footer">
+      <div class="col-12 col-md-6" id="icns">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <div class="col-12 col-md-6">
+        <p>123 Main Street, Boise, ID</p>
+      </div>
     </div>
   </footer>
 </body>
